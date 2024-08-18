@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAT-SURE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./style.css">
+    <!-- -----------------------------font-awesome---------------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ------------------google fonts------------------------------------ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Grey+Qo&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+Khitan+Small+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- --------------------------boxicons------------------------------ -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <!-- ------------------------navigation bar----------------------------------------------- -->
+        <nav>
+
+            <div class="nav-bar">
+                <img src="./images/es-brandcolor-logo.svg" id="logo-img" alt="">
+                <div class="location">
+
+                    <p id="loc"> <i class='bx bx-location-plus ' style="color: rgb(73, 69, 190);font-size: 1.2rem;"></i>
+                        <b style="color: rgb(73, 69, 190);font-size: 1.3rem;">Enter your location</b><i
+                            class='bx bx-chevron-down' style="color: rgb(73, 69, 190);font-size: 1rem;"></i> <br> Set
+                        location to find restaurants near..
+                    </p>
+                </div>
+
+                <div class="Res-loc">
+                    <i class='bx bxs-location-plus resloc'></i>
+                </div>
+
+                <input type="checkbox" id="menu-i">
+                <label for="menu-i"> <i class='bx bx-menu menu-b menubar' id="menuicon"></i>
+                    <i class="fa-solid fa-x close-icon" id="x-icon"></i></label>
+
+                <div class="nav-items">
+
+                    <a href="" class="H-link">Home</a>
+                    <a href="" class="H-link"> Party Orders</a>
+                    <a href="" class="H-link">About Eatsure</a>
+                    <a href="" class="H-link">Terms & Conditions</a>
+
+                </div>
+                <div class="contact">
+
+                    <i class='bx bx-phone ' id="contact-i" style="color:  rgb(73, 69, 190);"> </i>
+                    <p> Call us at <br><b>07304047007</b></p>
+
+
+                </div>
+                <input type="checkbox" id="sign-in">
+                <label for="sign-in">
+                    <div class="signin">
+                        <div class="signin-logo"><i class="fa-regular fa-user " id="signin-i "
+                                style="color:  rgb(73, 69, 190); font-size: 25px;"></i></div>
+                        <p id="signin-i u-logo"><a href="" class="link-s">Sign In</a></p>
+
+                    </div>
+                </label>
+
+
+
+            </div>
+
+            <div class="home-hr">
+                <a href="">Home > kochi</a>
+            </div>
+
+        </nav>
+
+        <!-- --------------------------Restaurants------------------------------------------------ -->
+        <div class="Restaurants">
+            <h2>Restaurants Near Me in Kochi</h2>
+            <div class="row1">
+                <div class="col2">
+                    <img src="./images/f1.jpg" width="350px" height="350px" style="z-index: 1;" alt="">
+
+                    <div class="logo-img1"> <img src="./images/f1-log.avif" height="100%" width="100%" alt="">
+                       <div class="head-para">
+                            <h4 id="head-log-img1"> Behrouz.Biryani</h4>
+                            <p style="height: 5px; width: 280px; background-color:transparent;">Handcrafted, Royal Biryanis</p>
+                       </div>
+                    </div>
+
+                </div>
+                <!-- <div class="col1">
+                    <img src="./images/f1.jpg" width="350px" height="350px" style="z-index: 1;" alt="">
+
+
+                    <div class="logo-img1"> <img src="./images/f1-log.avif" height="100%" width="100%" alt="">
+                        <div class="head-para">
+                            <h4 id="head-log-img1"> Faasos</h4>
+                            <p style="height: 5px; width: 280px; background-color:transparent;">Indulgent wraps loaded with high protein</p>
+                        </div>
+                    </div>
+
+                </div> -->
+
+                <div class="col2">
+                    <img src="./images/f2.avif" width="100%" height="100%" alt="">
+
+                    <div class="logo-img1"> <img src="./images/f2-logo.avif" height="100%" width="100%" alt="">
+                       <div class="head-para">
+                            <h4 id="head-log-img1"> Behrouz.Biryani</h4>
+                            <p style="height: 5px; width: 280px; background-color:transparent;">Handcrafted, Royal Biryanis</p>
+                       </div>
+                    </div>
+
+                </div>
+                <div class="col3">
+                    <img src="./images/f3.avif" width="100%" height="100%" alt="">
+
+                    <div class="logo-img1"> <img src="./images/f3-logo.avif" height="100%" width="100%" alt="">
+                      <div class="head-para">
+                            <h4 id="head-log-img1">Ovenstory</h4>
+                            <p style="height: 5px; width: 280px; background-color:transparent;">Pizza with standout toppings</p>
+                      </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row2">
+                <div class="col4">
+                    <img src="./images/f4.avif" width="100%" height="100%" alt="">
+                    <div class="logo-img1"> <img src="./images/f4-logo.avif" height="100%" width="100%" alt="">
+                      <div class="head-para">
+                            <h4 id="head-log-img1">Firangi.Bake</h4>
+                            <p style="height: 5px; width: 280px; background-color:transparent;">Safe & Legendary Bakes</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col5">
+                    <img src="./images/f5.avif" width="100%" height="100%" alt="">
+                    <div class="logo-img1"> <img src="./images/f5-logo.avif" height="100%" width="100%" alt="">
+                    <div class="head-para">
+                            <h4 id="head-log-img1"> Sweet.Truth</h4>
+                            <p style="height: 5px; width: 280px; background-color:transparent;">The Purest Indulgence</p>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="col6">
+                    <img src="./images/f6.jpg" width="100%" height="100%" alt="">
+                    <div class="logo-img1"> <img src="./images/f6-logo.avif" height="100%" width="100%" alt="">
+                       <div class="head-para">
+                            <h4 id="head-log-img1"> The.Good.Bowl</h4>
+                            <p style="height: 5px; width: 280px; background-color:transparent;">Delicious Bowl Meals - Hygienic & Safe</p>
+                       </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row3">
+                <div class="col7">
+                    <img src="./images/f7.avif" width="100%" height="100%" alt="">
+                    <div class="logo-img1"> <img src="./images/f7-logo.avif" height="100%" width="100%" alt="">
+                        <div class="head-para">
+                            <h4 id="head-log-img1"> Lunchbox.Meals&Thalis</h4>
+                            <p style="height: 5px; width: 280px; background-color:transparent;">Homestyle, Wholesome, Delightful</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col8">
+                    <img src="./images/f8.avif" width="100%" height="100%" alt="">
+                    <div class="logo-img1"> <img src="./images/f8-logo.avif" height="100%" width="100%" alt="">
+                       <div class="head-para">
+                            <h4 id="head-log-img1"> Biryani.Life</h4>
+                            <p style="height: 5px; width: 280px; background-color:transparent;">Hyderabad & Lucknow Biryani experts</p>
+                       </div>
+                    </div>
+
+                </div>
+                <div class="col9">
+                    <img src="./images/f9.avif" width="100%" height="100%" alt="">
+                    <div class="logo-img1"> <img src="./images/f9-logo.avif" height="100%" width="100%" alt="">
+                       <div class="head-para">
+                            <h4 id="head-log-img1"> Shravan.Specials </h4>
+                            <p style="height: 5px; width: 280px; background-color:transparent;">Satvik bhi, Delicious bhi</p>
+                       </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- --------------------------------Categories----------------------------------------------- -->
+        <div class="categories">
+
+
+            <h2>Popular categories near me in Kochi</h2>
+            <div class="box-catg">
+                <div class="box">
+                    <img src="./images/cat1.avif" width="50px" height="50px" alt="">
+                    <p>World's First Multi- Restaurant BOGO..</p>
+
+                </div>
+                <div class="box">
+                    <img src="./images/cat2.avif" width="50px" height="50px" alt="">
+
+                    <p> Shravan Specials near me</p>
+
+                </div>
+                <div class="box">
+                    <img src="./images/cat3.avif" width="50px" height="50px" alt="">
+                    <p>Order Happy Hours near me</p>
+
+                </div>
+                <div class="box">
+                    <img src="./images/cat4.avif" width="50px" height="50px" alt="">
+                    <p>
+
+                        Late Night Happy Hours near me</p>
+
+                </div>
+                <div class="box">
+                    <img src="./images/cat5.avif" width="50px" height="50px" alt="">
+                    <p> Late Night Happy Hours near me</p>
+
+                </div>
+                <div class="box">
+                    <img src="./images/cat6.avif" width="50px" height="50px" alt="">
+                    <p>New Launches near me</p>
+
+                </div>
+                <div class="box">
+                    <img src="./images/cat7.avif" width="50px" height="50px" alt="">
+                    <p>
+
+                        Breakfast Specials near me</p>
+
+                </div>
+                <div class="box">
+                    <img src="./images/cat8.avif" width="50px" height="50px" alt="">
+                    <p>Exclusive Offers Zone near me</p>
+
+                </div>
+                <div class="box">
+                    <img src="./images/cat9.avif" width="50px" height="50px" alt="">
+                    <p>Exclusive Offers Zone near me</p>
+                </div>
+                <div class="box">
+                    <img src="./images/cat10.avif" width="50px" height="50px" alt="">
+                    <p>FLAT 25% off on Orders above 499 near me</p>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- --------------------------------------cuisines------------------------------------------------- -->
+        <div class="cuisines"></div>
+        <!-- -------------------------------------------Service-Locations--------------------------------------------- -->
+        <div class="Serving-Locations"></div>
+        <!-- ----------------------------------------footer-------------------------------------------------------------- -->
+        <footer>
+            <div class="footer-part">
+                <div class="f-row1">
+                    <div class="left-side ">
+                        <img src="./images/footer-logo.svg" alt="" height="120px" width="130px"
+                            style="padding-top: 0px;">
+                    </div>
+                    <div class="icons">
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+
+                    </div>
+
+
+
+
+                </div>
+                <div class="f-row2">
+                    <div class="Sure-choice-of-Restaurants">
+                        <h6>Sure choice of Restaurants</h6>
+
+                        <a href=""> Faasos</a> <br>
+                        <a href=""> Sweet Truth</a> <br>
+                        <a href=""> Lunchbox - Meals & Thalis</a> <br>
+                        <a href=""> Shravan Specials by Lunchbox</a> <br>
+                        <a href=""> Wendy's Burgers</a><br>
+                        <a href=""> Faasos' Signature Wraps & Rolls</a><br>
+                        <a href="">
+                            Kwality Walls Dessert and Ice Cream
+                            0+ More
+                        </a>
+                    </div>
+                    <div class="Our-story">
+                        <h6>Our story</h6>
+
+
+                        <a href=""> About Us</a> <br>
+                        <a href=""> 200+ stringent quality checks</a> <br>
+                        <a href=""> No artificial colors or flavors</a><br>
+                        <a href=""> Double-sealed packaging</a><br>
+                        <a href=""> Know your food</a><br>
+                        <a href=""> FAQs</a><br>
+                        <a href=""> Sure Points FAQs</a><br>
+                        <a href=""> Terms & Conditions</a><br>
+                    </div>
+                    <div class="EatSure-Initiatve">
+                        <h6> EatSure Initiatve</h6>
+
+
+                        <a href=""> Party Orders</a> <br>
+                        <a href="">Oven Story Franchise Enquiry</a><br>
+
+                        <h6 style=" padding-top: 15px;"> EatSure App</h6> <br>
+
+                        <a href=""> Android</a><br>
+                        <a href=""> iOS</a><br>
+                    </div>
+                    <div class="Important-Links">
+                        <h6>Important Links</h6>
+
+
+
+                        <a href=""> Order Biryani Online</a><br>
+                        <a href=""> Order Dessert Online</a> <br>
+                        <a href=""> Order Cake Online</a><br>
+                        <a href=""> Order Pizza Online</a><br>
+                        <a href=""> Chicken Biryani Online</a><br>
+                        <a href=""> Order Chinese near me</a><br>
+                        <a href=""> Veg Biryani Online</a><br>
+                        <a href=""> Order Cheese Burst Pizza Online</a> <br>
+
+                    </div>
+
+                </div>
+                <div class="f-end">
+                    <p>Copyright &copy; 2024. Eatsure - All Rights Reserved . Terms of use Privacy</p>
+
+                </div>
+
+            </div>
+        </footer>
+
+
+    </div>
+</body>
+
+</html>

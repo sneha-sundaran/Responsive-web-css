@@ -1,0 +1,932 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Blinker", sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+.container {
+    height: 100vh;
+    width: 100%;
+    
+
+}
+
+
+.nav-bar {
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    padding-left: 25px;
+    position: relative;
+}
+
+#logo-img {
+    height: 65px;
+    width: 100px;
+    margin: 10px 50px;
+}
+
+.nav-items {
+
+    display: inline;
+    padding-top: 30px;
+    /* padding-left: 25px; */
+    /* display: none; */
+   
+
+}
+
+.item{
+    display: inline;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+#item5 {
+    display: none;
+}
+
+#item6 {
+    display: none;
+}
+
+#item7 {
+    display: none;
+}
+
+
+.H-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    display: inline;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+
+.H-link:hover {
+    color: rgb(73, 69, 190);
+    text-decoration: underline rgb(73, 69, 190);
+}
+
+.location {
+    display: flex;
+    cursor: pointer;
+    padding-top: 15px;
+    /* display: none; */
+}
+
+.contact {
+    padding-top: 10px;
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* display: none; */
+}
+
+
+.contact>i {
+    font-size: 30px;
+}
+
+.bx-phone {
+
+    padding-right: 1px;
+
+}
+#sign-in{
+    display: none;
+}
+.signin {
+    padding-left: 20px;
+    display: flex;
+    padding-top: 30px;
+    /* padding-top: 10px; */
+    /* padding-top: 25px; */
+    align-items: center;
+    cursor: pointer;
+
+
+
+
+}
+
+.signin-logo>i {
+    font-size: 15px;
+    /* color: black; */
+    background-color: #ffffff;
+}
+
+.signin-logo {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    align-items: center;
+    border: none;
+
+}
+
+.signin>p {
+    padding-left: 10px;
+    text-decoration: none;
+
+}
+
+.link-s {
+    text-decoration: none;
+    color: rgb(73, 69, 190);
+    font-weight: bold;
+}
+
+.loc {
+    align-items: center;
+
+
+}
+
+/* .res-loc>i{
+    display: none;
+}
+.resloc{
+    display: none;
+} */
+i.bx.bxs-location-plus.resloc {
+    display: none;
+}
+
+.menubar {
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    color: rgb(73, 69, 190);
+    margin-top: 30px;
+    margin-right: 20px;
+    
+}
+.close-icon{
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    color: rgb(73, 69, 190);
+    padding-top: 30px;
+    padding-left: 10px;
+   
+  
+    
+
+}
+#x-icon{
+    display: none;
+}
+#menu-i{
+    display:none;
+}
+#menuicon{
+display: none;
+}
+.home-hr{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(238, 244, 255);
+    padding-top: 20px;
+}
+.home-hr>a{
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+    background-color: rgb(238, 244, 255) ;
+    margin-left: 75px;
+
+
+}
+.Restaurants{
+    height: 1250px;
+    width: 100%;
+    /* background-color: aqua; */
+
+}
+.Restaurants>h2{
+    margin-left: 79px;
+    font-size: 29px;
+    padding-top: 38px;
+   counter-reset: rgb(51, 51, 51);
+}
+.row1{
+    height: 350px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 60px;
+    padding-top: 30px;
+    
+   
+    
+}
+.row2{
+    height: 350px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 60px;
+    padding-top: 30px;
+    
+   
+    
+}
+.row3{
+    height: 350px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 60px;
+    padding-top: 30px;
+    
+   
+    
+}
+
+.col1{
+    height: 350px;
+    width: 350px;
+    border: 1px solid;
+    background-color: rgb(29, 58, 120);
+    gap: 10px;
+    position: relative;
+
+    
+}
+.col2{
+    height: 350px;
+    width: 350px;
+    border: 1px solid;
+    background-color: rgb(29, 58, 120);
+    gap: 10px;
+
+    
+}
+.col3{
+    height: 350px;
+    width: 350px;
+    border: 1px solid;
+    background-color: rgb(29, 58, 120);
+    gap: 10px;
+
+    
+}
+.col4{
+    height: 350px;
+    width: 350px;
+    border: 1px solid;
+    background-color: rgb(29, 58, 120);
+    gap: 10px;
+
+    
+}
+.col5{
+    height: 350px;
+    width: 350px;
+    border: 1px solid;
+    background-color: rgb(29, 58, 120);
+    gap: 10px;
+
+    
+}
+.col6{
+    height: 350px;
+    width: 350px;
+    border: 1px solid;
+    background-color: rgb(29, 58, 120);
+    gap: 10px;
+
+    
+}
+.col7{
+    height: 350px;
+    width: 350px;
+    border: 1px solid;
+    background-color: rgb(29, 58, 120);
+    gap: 10px;
+
+    
+}
+.col8{
+    height: 350px;
+    width: 350px;
+    border: 1px solid;
+    background-color: rgb(29, 58, 120);
+    gap: 10px;
+
+    
+}
+.col9{
+    height: 350px;
+    width: 350px;
+    border: 1px solid;
+    background-color: rgb(29, 58, 120);
+    gap: 10px;
+
+    
+}
+.col1 img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.logo-img1{
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    margin-top: -66px;
+    /* position: absolute; */
+    z-index: 3;
+    border-radius: 20%;
+    display: flex;
+
+}
+.logo-img1>p{
+    height: 10px;
+    width: 330px;
+    color: #ffffff;
+    
+}
+.head-para{
+    display: block;
+    padding-left: 10px;
+background-color: transparent;
+color: white;
+
+   
+  
+}
+.head-para>p h4{
+    color: #fff;
+}
+
+
+#head-log-img1{
+   color: rgb(255, 255, 255);
+   font-weight: bolder;
+   z-index: 4;
+   background-color: rgba(0, 0, 0, 0);
+   /* margin-left: 50px;  */
+   /* margin-top: -45px;
+   padding-top: -10px; */
+   background-color: none;
+   
+ 
+}
+.categories{
+    height: 600px;
+    width: 100%;
+    /* background-color: rgb(255, 171, 45); */
+    position: relative;
+    z-index: 1;
+}
+.categories h2{
+    font-size: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+    z-index: 4;
+}
+.categories .box-catg{
+    padding-left: 20px;
+    margin-top: 40px;
+     color: #8d8484;
+     line-height: 1.5;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap: 40px;
+    font-size: 20px;
+    
+   
+}
+.box>p{
+    padding-left: 10px;
+}
+.box{
+    display: flex;
+    
+}
+.footer-part{
+  height: 700px;
+  width: 100%;
+  background-color: rgb(73, 69, 190); 
+  /* border: 1px solid black; */
+  
+}
+.f-row1{
+    height: 120px;
+    width: 100%;
+    background-color:rgba(73, 69, 190, 0.3);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}.left-side{
+    height: 120px;
+    width: 130px;
+    background-color:rgb(73, 69, 190) ;
+}
+.left-side>img{
+    padding-left: 70px;
+    background-color:rgb(73, 69, 190) ;
+    padding-top: 50px;
+    
+}
+
+.icons{
+    margin-right: 50px;
+    font-size: 40px;
+    display: flex;
+    justify-content:evenly;
+    gap: 30px;
+    background-color:rgb(73, 69, 190) ;
+    color: white;
+    border: none;
+    
+
+}
+.icons>i{
+    background-color:rgb(73, 69, 190) ;
+}
+.f-row2{
+    height: 520px;
+    width: 100%;
+    background-color:  rgb(73, 69, 190);
+    margin-top: 30px;
+    display: flex;
+    
+    gap: 30px;
+}
+.Sure-choice-of-Restaurants{
+    height: 400px;
+    width: 280px;
+    /* margin-left: 30px; */
+    background-color:  rgb(73, 69, 190);
+}
+.Our-story{
+    height: 400px;
+    width: 280px;
+    background-color:  rgb(73, 69, 190);
+
+}
+.EatSure-Initiatve{
+    height: 400px;
+    background-color:  rgb(73, 69, 190);
+
+    width: 280px;
+}
+.Important-Links{
+    height: 400px;
+    width: 280px;
+    background-color:  rgb(73, 69, 190);
+
+}
+.Sure-choice-of-Restaurants>a{
+    text-decoration: none;
+    color: #ffff;
+     background-color:  rgb(73, 69, 190);
+     line-height: 2.1;
+     color: #ffff;
+
+}
+.Our-story>a{
+    text-decoration: none;
+    line-height: 2.1;
+    color: #ffff;
+    background-color:  rgb(73, 69, 190);
+
+} 
+.EatSure-Initiatve>a{
+    text-decoration: none;
+    background-color:  rgb(73, 69, 190);
+   
+    line-height: 2.1;
+    color: #ffff;
+}
+.Important-Links>a{
+    text-decoration: none;
+    background-color:  rgb(73, 69, 190);
+   
+    line-height: 2.1;
+    color: #ffff;
+}
+.Sure-choice-of-Restaurants>h6{
+    font-size: 20px;
+    color: #ffff;
+    padding-bottom: 15px;
+    background-color:  rgb(73, 69, 190);
+
+}
+.Our-story>h6{
+    font-size: 20px;
+    color: #ffff;
+    padding-bottom: 15px;
+    background-color:  rgb(73, 69, 190);
+}
+.EatSure-Initiatve>h6{
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: #ffff;
+    background-color:  rgb(73, 69, 190);
+
+}
+.Important-Links>h6{
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #ffff;
+    background-color:  rgb(73, 69, 190);
+}
+.f-end{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(55, 51, 165);
+    padding-top: 23px;
+}
+.f-end>p{
+    background-color: rgb(55, 51, 165);
+    color: white;
+    font-size: 17px;
+    padding-left: 31%;
+}
+@media (max-width:480px) {
+      html,body{
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+       
+
+     }
+    
+    .location {
+        display: none;
+    }
+  
+.nav-bar {
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    /* padding-left: 25px; */
+    position: relative;
+}
+    .nav-items{
+        
+        height: 600px;
+        position: absolute;
+        top:100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(55, 51, 165);
+        display: none;
+        /* margin-left: 70px; */
+      
+
+
+
+    }
+
+     .home-hr{
+        margin-top: 25px;
+        /* display: none; */
+    } 
+    .H-link {
+        display: block;
+        font-size: 1rem;
+        text-align: center;
+        background-color:rgb(55, 51, 165);
+        height: 20px;
+        line-height: 1;
+        padding-right: 50px;
+        color: #ffffff;
+        padding-top: -30px;
+
+        
+    
+       
+        
+    }
+
+
+
+    .contact {
+        display: none;
+    }
+
+    .signin {
+        margin-left: -20px;
+        display: none;
+    }
+
+    #logo-img {
+        height: 55px;
+        width: 90px;
+        margin: 10px 30px;
+        margin-left: 60px;
+        padding-right: 30px;
+    }
+
+    i.bx.bxs-location-plus.resloc {
+        height: 50px;
+        width: 55px;
+        font-size: 30px;
+        margin-top: 25px;
+        display: none;
+        color: rgb(73, 69, 190);
+
+    }
+    .H-link{
+        display: block;
+        text-align: center;
+    }
+    #menuicon{
+        display: flex;
+        }
+
+    .menubar {
+        display: flex;
+        padding-left: 90px;
+    }
+    #menu-i:checked~.nav-items{
+        display: block;
+    }
+    #menu-i:checked~ .menubar{
+        display:none;
+        
+    }
+   
+   
+    #menu-i:checked ~ label #menuicon {
+        display: none;
+    }
+
+   
+
+    
+    .nav-items {
+        display: none;
+    }
+   
+    #menu-i:checked ~ .nav-items {
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        top: 100%; 
+        left: 0;
+        z-index: 999;
+    }
+    #menu-i:checked ~ label #x-icon {
+        display: block;
+        margin-left: 80px;
+       
+    }
+
+    .nav-items a {
+        display: block;
+        background-color: rgb(73, 69, 190);
+        color:#fff ;
+        margin: 0;
+       text-align: end;
+       border: none;
+        /* padding: 0; */
+
+    }
+
+    .Restaurants{
+        margin-right: 70px;
+    }
+  
+    .row1{
+        height: 350px;
+        width: 350px;
+        background-color: rgb(255, 255, 255);
+        display: block;
+        
+        /* padding-left: -30px; */
+        /* margin-right: 70px; */
+        padding-right: 50px;
+        
+       
+        
+    }
+    .row2{
+        height: 350px;
+        width: 350px;
+        background-color: rgb(255, 255, 255);
+        display: block;
+
+        margin-left: 60px;
+        padding-top: 30px;
+        
+       
+        
+    }
+    .row3{
+        height: 350px;
+        width: 350px;
+        background-color: rgb(255, 255, 255);
+        display: block;
+        /* justify-content:space-evenly;  */
+        margin-left: 60px;
+        padding-top: 30px;
+        
+       
+        
+    }
+    .logo-img1>p{
+        height: 10px;
+        width: 330px;
+        background-color:  rgba(0, 0, 0, 0);
+        color: #ffffff;
+        
+        margin-left: 48px;
+        margin-top: -25px;
+    }
+ 
+    
+    .Restaurants{
+        height: 3720px;
+        width: 100%;
+        /* background-color: aqua; */
+    
+    }
+    .home-hr{
+        height: 40px;
+        width: 100%;
+        
+    }
+    .row1{
+        height: 1190px;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    .row2{
+        padding-top: 10px;
+        height: 1160px;
+        width: 100%;
+        /* background-color: rgb(0, 133, 133); */
+    }
+    .row3{
+        padding-top: 30px;
+        height: 1160px;
+        width: 100%;
+        /* background-color: rgb(0, 133, 133); */
+    }
+    .col2{
+        margin-top: 40px;
+    }
+    .col3{
+        margin-top: 40px;
+    }  .col4{
+        margin-top: 10px;
+    }  .col6{
+        margin-top: 40px;
+    }  .col8{
+        margin-top: 40px;
+    }  .col7{
+        margin-top: 5px;
+    }  
+    .col9{
+        margin-top: 40px;
+    }
+    .col1{
+        margin-top: 40px;
+    }
+    .col5{
+        margin-top: 40px;
+    }
+    .categories{
+        height: 1000px;
+        width: 100%;
+    }
+    .f-row1{
+        height: 100px;
+        width: 100%;
+    }
+    .left-side{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        justify-content:space-between;
+    }
+    .left-side>img{
+        padding-left: 10px;
+        background-color:rgb(73, 69, 190) ;
+        padding-top: 50px;
+        height: 90px;
+        width: 100px;
+        
+    }
+    
+    .icons{
+        margin-top: 35px;
+        margin-right: 25px;
+        font-size: 30px;
+        display: flex;
+        justify-content:evenly;
+        gap: 30px;
+        background-color:rgb(73, 69, 190) ;
+        color: white;
+        border: none;
+        
+    
+    }
+    
+    .f-row2{
+        height: 1010px;
+        width: 100%;
+        background-color: rgb(73, 69, 190);
+        margin-top: 30px;
+        display: block;
+       text-align: center;
+        /* padding-left: 30px; */
+        gap: 30px;
+    }
+    .Sure-choice-of-Restaurants{
+        height: 250px;
+        width: 100%;
+        /* margin-left: 30px; */
+        background-color:  rgb(73, 69, 190);
+    }
+    .Our-story{
+        height: 250px;
+        width: 100%;
+        /* margin-left: 30px; */
+        background-color:  rgb(73, 69, 190);
+    }
+    .EatSure-Initiatve{
+        height: 250px;
+        width: 100%;
+        /* margin-left: 30px; */
+        background-color:  rgb(73, 69, 190);
+    }
+    .Important-Links{
+        height: 250px;
+        width: 100%;
+        /* margin-left: 30px; */
+        background-color:  rgb(73, 69, 190);
+    }
+    .Sure-choice-of-Restaurants>a{
+        text-decoration: none;
+         line-height: 1.6;
+         color: #ffffff;
+        background-color:  rgb(73, 69, 190);
+    }
+    .Our-story>a{
+        text-decoration: none;
+        line-height: 1.6;
+        color: #ffffff;
+        background-color:  rgb(73, 69, 190);
+    } 
+    .EatSure-Initiatve>a{
+        text-decoration: none;
+        line-height: 1.6;
+        color: #ffffff;
+        background-color:  rgb(73, 69, 190);
+    }
+    .Important-Links>a{
+        text-decoration: none;
+        line-height: 1.6;
+        color: #ffffff;
+        background-color:  rgb(73, 69, 190);
+    }
+    .Sure-choice-of-Restaurants>h6{
+        font-size: 20px;
+        color: #ffffff;
+        background-color:  rgb(73, 69, 190);
+
+    }
+    .f-end{
+        height: 50px;
+        width: 100%;
+        background-color: rgb(55, 51, 165);
+        padding-top: 10px;
+
+    }
+    .f-end>p{
+        background-color: rgb(55, 51, 165);
+        color: white;
+        font-size: 12px;
+        padding-left: 60px;
+    }
+}
